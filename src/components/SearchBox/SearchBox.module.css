@@ -1,23 +1,26 @@
+.search {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .label {
     display: flex;
     flex-direction: column;
 }
 
-.input {
-    width: 500px;
+.field {
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     height: 40px;
-    border-radius: 8px;
+    border-radius: 5px;
     padding-left: 10px;
     border: none;
-    background-color: var(--color-one);
     border: 1px solid #A5A8A5;
     border-radius: 4px;
-    color: var(--color-white);
-    transition: outline 0.3s ease;
-    box-shadow: inset var(--box-shadow);
-
-    &:focus,
-    &:hover {
-        outline: 2px solid var(--color-button-hover);
-    }
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
